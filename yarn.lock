@@ -6077,6 +6077,12 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
+simple-cache-provider@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/simple-cache-provider/-/simple-cache-provider-0.1.1.tgz#e847e925f9657b051b546efea8b5fd04b28c0d8b"
+  dependencies:
+    fbjs "^0.8.16"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
