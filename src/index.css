@@ -1,7 +1,8 @@
 body {
-  margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /* Fallback Fonts */
+  font-family: soleil,-apple-system,Helvetica,Arial,sans-serif;
+  font-weight: lighter;
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
