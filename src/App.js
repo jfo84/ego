@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   margin-top: 0;
   z-index: 1;
   overflow: hidden;
-  background: #0003d1;
+  background: #537756;
 `;
 
 const Header = styled.section`
