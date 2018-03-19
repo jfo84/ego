@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Box, Mask, Avatar } from 'gestalt';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
@@ -35,24 +36,23 @@ const Description = styled.h2`
 class App extends Component {
   render() {
     return (
-      <div>
-        <head>
-          <meta charSet="utf-8" />
-          <title>Jack Ford</title>
+      <Wrapper>
+        <Header>
+          <Title>Jack Ford</Title>
+          <Description>Software Engineer</Description>
 
-          <link rel="canonical" href="http://www.jruffinford.com" />
-          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mina|Muli" />
-
-          <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-        </head>
-
-        <Wrapper>
-          <Header>
-            <Title>Jack Ford</Title>
-            <Description>Software Engineer</Description>
-          </Header>
-        </Wrapper>
-      </div>
+          <Box display="flex" direction="row">
+            <Box column={4} maxWidth={200}>
+              <Mask shape="circle">
+                <img
+                  src={process.env.PUBLIC_URL + "/profile_photo.jpeg"}
+                  style={{ maxWidth: '100%', display: 'block' }}
+                />
+              </Mask>
+            </Box>
+          </Box>
+        </Header>
+      </Wrapper>
     );
   }
 }
