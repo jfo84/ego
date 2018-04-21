@@ -1453,10 +1453,6 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
-
 clean-css@4.1.x:
   version "4.1.9"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.9.tgz#35cee8ae7687a49b98034f70de00c4edd3826301"
@@ -2936,13 +2932,6 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
-
-gestalt@^0.60.0:
-  version "0.60.0"
-  resolved "https://registry.yarnpkg.com/gestalt/-/gestalt-0.60.0.tgz#6d903238054166d8651db199ec332528c0fd0041"
-  dependencies:
-    classnames "^2.2.5"
-    prop-types "^15.6.0"
 
 get-caller-file@^1.0.1:
   version "1.0.2"
