@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Box, Mask, Avatar } from 'gestalt';
 import styled from 'styled-components';
+
+import Profile from './components/Profile';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -41,16 +42,7 @@ class App extends Component {
           <Title>Jack Ford</Title>
           <Description>Software Engineer</Description>
 
-          <Box display="flex" direction="row">
-            <Box column={4} maxWidth={200}>
-              <Mask shape="circle">
-                <img
-                  src={process.env.PUBLIC_URL + "/profile_photo.jpeg"}
-                  style={{ maxWidth: '100%', display: 'block' }}
-                />
-              </Mask>
-            </Box>
-          </Box>
+          <Profile />
         </Header>
       </Wrapper>
     );
