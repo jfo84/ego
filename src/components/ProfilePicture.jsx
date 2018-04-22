@@ -5,7 +5,7 @@ class Profile extends Component {
     return (
       <img
         src={process.env.PUBLIC_URL + "/profile_photo.jpeg"}
-        style={{ maxWidth: '100%', display: 'block', borderRadius: '50%' }}
+        style={{ maxWidth: '100%', borderRadius: '50%'}}
         alt=""
       />
     );

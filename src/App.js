@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Profile from './components/Profile';
+import { FlexRow, FlexStart, FlexEnd } from './components/Flex';
+
+import ProfilePicture from './components/ProfilePicture';
+import ProfileBlurb from './components/ProfileBlurb';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -39,12 +42,16 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>
-          <Title>Jack Ford</Title>
-          <Description>Software Engineer</Description>
-
-          <div display="flex" direction="row">
-            <Profile />
-          </div>
+          <FlexRow>
+            <FlexStart>
+              <Title>Jack Ford</Title>
+              <Description>Software Engineer</Description>
+              <ProfilePicture />
+            </FlexStart>
+            <FlexEnd>
+              <ProfileBlurb />
+            </FlexEnd>
+          </FlexRow>
         </Header>
       </Wrapper>
     );
