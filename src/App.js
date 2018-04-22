@@ -42,7 +42,9 @@ class App extends Component {
           <Title>Jack Ford</Title>
           <Description>Software Engineer</Description>
 
-          <Profile />
+          <div display="flex" direction="row">
+            <Profile />
+          </div>
         </Header>
       </Wrapper>
     );
