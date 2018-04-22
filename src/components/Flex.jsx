@@ -7,10 +7,10 @@ export const FlexRow = styled.div`
 
 export const FlexStart = styled.div`
   flex: 1;
-  justify-content: "flex-start";
+  justify-content: flex-start;
 `;
 
 export const FlexEnd = styled.div`
   flex: 1;
-  justify-content: "flex-start";
+  justify-content: flex-end;
 `;
